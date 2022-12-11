@@ -18,8 +18,8 @@ layout:
   text-size:
     base: 1.2
     stops:
-      - - 12
-        - 12
+      - - 10
+        - 10
       - - 15
         - 22
   visibility: visible

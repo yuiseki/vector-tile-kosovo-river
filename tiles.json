@@ -10,14 +10,14 @@
   "minzoom": 0,
   "maxzoom": 14,
   "bounds": [
-    1.412368,
-    42.4276,
-    1.787481,
-    42.65717
+    20.01357,
+    41.854079,
+    21.79327,
+    43.277534
   ],
   "center": [
-    1.599925,
-    42.542385,
+    20.90342,
+    42.565807,
     7
   ],
   "vector_layers": [
@@ -133,7 +133,14 @@
     },
     {
       "id": "aerodrome_label",
-      "fields": {},
+      "fields": {
+        "class": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "iata": "String",
+        "icao": "String",
+        "name:latin": "String"
+      },
       "minzoom": 10,
       "maxzoom": 14
     },
